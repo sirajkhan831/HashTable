@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
 public class HashTable {
-
     public static void main(String[] args) {
+
         HashTableImplementation<String, Integer> hashImpl = new HashTableImplementation<String, Integer>();
         String message = "To be or not to be";
 

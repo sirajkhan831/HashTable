@@ -5,7 +5,7 @@ public class HashTableImplementation<K, V> {
     Node tail;
 
     public void add(K key, V value) {
-        Node<K, V> myNode = searchNode(key);
+        Node<K, V> myNode = (Node<K, V>) searchNode(key);
         if (myNode == null) {
             myNode = new Node<>(key, value);
             this.append(myNode);
